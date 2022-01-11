@@ -1,0 +1,63 @@
+.header{
+    padding:0em 1.5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+}
+
+.hidden{
+    display: none;
+}
+
+#clock{
+    font-size: 35px;
+}
+
+#clock:hover, #greeting:hover{
+    padding: 5px;
+    border: 1px solid #E8F0EF;
+    border-radius: 10px;
+    background-color: #B5ACAB;
+    color: #E8F0EF;
+}
+
+#clock:hover{
+    font-size: 32px;
+}
+
+#greeting:hover{
+    font-size: 28px;
+}
+
+#weather{
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+}
+
+#login-form{
+    float: right;
+    margin-right: 3em;
+}
+
+.header input[type="text"]{
+    border: 1px solid #E8F0EF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 28px;
+    text-align: center;
+    background-color: #B7AAAA;
+}
+
+input[type="submit"]{
+    display: none;
+}
+
+#greeting{
+    float: right;
+    margin-right: 2em;
+    font-size: 30px;
+    font-weight: bold;
+}

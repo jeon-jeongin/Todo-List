@@ -1,0 +1,14 @@
+.footer{
+   padding: 0em 1.5em;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   color: #333333;
+}
+
+#quote{
+    font-size: 20px;
+    padding: 1.5em;
+}

@@ -1,0 +1,80 @@
+.finCheck{
+    color:#999999;
+    text-decoration: line-through;
+}
+
+.nav, .section{
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin: auto;
+    width: 60%;
+    border: 1px solid #E8F0EF;
+    border-radius: 10px;
+}
+.nav{
+    margin-top: 15px;
+    border-bottom: none;
+    background-color: #A6C5B9;
+}
+
+.nav h1{
+    margin: auto;
+    padding: 10px;
+    color: #E8F0EF;
+}
+
+.section{
+    background-color: #C3DCD5;
+}
+
+.todo-container{
+    margin: auto;
+    width: 60%;
+}
+
+#todo-form input[type="text"], #todo-list-form{
+    border: 1px solid #E8F0EF;
+    border-radius: 10px;
+    background-color: #E8F0EF;
+    padding: 0.8em;
+    margin: 2em 2em 0em 2em;
+    width: 80%;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+#todo-list-form{
+    margin: 2em;
+}
+
+#todo-list-form>span{
+    color: #666666;
+    font-size: 20px;
+    text-align: center;
+}
+
+#todo-list li{
+    list-style: none;
+    margin-left: -2.5em;
+}
+
+#todo-list li span{
+    color: #666666;
+    margin-left: 1em;
+}
+
+#todo-list li button{
+	background-color:#ededed;
+	border-radius:35px;
+	border:1px solid #A6C5B9;
+	display:inline-block;
+	cursor:pointer;
+	color:#A6C5B9;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+
+
